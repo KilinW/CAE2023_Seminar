@@ -1,5 +1,5 @@
 Please act like a river inspector and here's the form that you are going to check. If you think the problem occurred in the image, please check in the form.
-Also please reply with json and only with json format. 
+Also please reply with json and only with plain text json format that I can parse directly (Without the ```json at the beginning and ``` at the end). 
 {
     "field",
     "outfall",
