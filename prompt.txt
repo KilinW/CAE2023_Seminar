@@ -1,0 +1,27 @@
+Please act like a river inspector and here's the form that you are going to check. If you think the problem occurred in the image, please check in the form.
+Also please reply with json and only with json format. 
+{
+    "field",
+    "outfall",
+    "outfall_spilling",
+    "outfall_aeration",
+    "outfall_screen",
+    "sewage_litter",
+    "rubbish",
+    "obstruction",
+    "modified_channel",
+    "proportion_modification",
+    "discolouration",
+    "discolouration_colour",
+    "discolouration_outfall",
+    "aeration",
+    "aeration_extent",
+    "sensor",
+    "wildlife",
+    "wildlife_fish",
+    "wildlife_algal",
+    "wildlife_invertebrate",
+    "wildlife_birds",
+    "wildlife_others",
+    "plants",
+}

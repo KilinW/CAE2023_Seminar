@@ -1,0 +1,4 @@
+ArcGIS_Dataset/
+venv/
+token.txt
+.vscode/

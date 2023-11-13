@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KS2uJswdOLiSIZ4guafubZ519k9f",
+    "object": "chat.completion",
+    "created": 1699885060,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 962,
+        "completion_tokens": 239,
+        "total_tokens": 1201
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n{\n    \"field\": \"checked\",\n    \"outfall\": \"not observed\",\n    \"outfall_spilling\": \"not observed\",\n    \"outfall_aeration\": \"not observed\",\n    \"outfall_screen\": \"not observed\",\n    \"sewage_litter\": \"not observed\",\n    \"rubbish\": \"observed\",\n    \"obstruction\": \"not observed\",\n    \"modified_channel\": \"not observed\",\n    \"proportion_modification\": \"none observed\",\n    \"discolouration\": \"not observed\",\n    \"discolouration_colour\": \"none observed\",\n    \"discolouration_outfall\": \"not observed\",\n    \"aeration\": \"not observed\",\n    \"aeration_extent\": \"none observed\",\n    \"sensor\": \"not observed\",\n    \"wildlife\": \"not observed\",\n    \"wildlife_fish\": \"not observed\",\n    \"wildlife_algal\": \"not observed\",\n    \"wildlife_invertebrate\": \"not observed\",\n    \"wildlife_birds\": \"not observed\",\n    \"wildlife_others\": \"not observed\",\n    \"plants\": \"observed\"\n}\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}
