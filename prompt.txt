@@ -1,27 +1,27 @@
 Please act like a river inspector and here's the form that you are going to check. If you think the problem occurred in the image, please check in the form.
-Also please reply with json and only with plain text json format that I can parse directly (Without the ```json at the beginning and ``` at the end). 
+Also please reply with json and only with plain text json format that I can parse directly (Without the ```json at the beginning and ``` at the end).  
+And please don't leave any comment in the json file. It's not permitted and will cause error during parsing.
 {
-    "outfall": true/false,
-    "outfall_spilling": true/false/null,
-    "outfall_aeration": true/false/null,
-    "outfall_screen": true/false/null,
-    "sewage_litter": true/false/null,
-    "rubbish": true/false/null,
-    "obstruction": None/Minor/Partial/Full,
-    "modified_channel": true/false/null,
-    "proportion_modification": None/Minor/Partial/Full,
-    "discolouration": true/false/null,
-    "discolouration_colour": {RGB Hex} or null,
-    "discolouration_outfall": true/false/null,
-    "aeration": true/false/null,
-    "aeration_extent": None/Minor/Partial/Full,
-    "wildlife": true/false/null,
-    "wildlife_fish": true/false/null,
-    "wildlife_algal": true/false/null,
-    "wildlife_invertebrate": true/false/null,
-    "wildlife_birds": true/false/null,
-    "wildlife_others": true/false/null,
-    "plants": true/false/null,
-    "people": true/false/null,
-    "Number_of_People": {integer},
+    "Outfall": true/false,                                  // The presence of an outfall.
+    "Outfall_Spilling": true/false/null,                    // Is there flow coming ou tof the outfall?
+    "Outfall_Aeration": true/false/null,                    // Is there aeration caused by outfall?
+    "Outfall_Screen": true/false/null,                      // Is there a screen on the outfall?
+    "Sewage_Litter": true/false/null,                       // The presence of sewage "rags"? 
+    "Rubbish": true/false/null,                             // The presence of generally rubbish.
+    "Obstruction": None/Minor/Partial/Full,                 // The extent of river obstruction.
+    "Modified_Channel": true/false/null,                    // Is the river channel modified by human?
+    "Proportion_Modification": None/Minor/Partial/Full,     // The extent of river channel modification.
+    "Discolouration": true/false/null,                      // Is there discolouration in the river? Could also indicate high turbidity.
+    "Discolouration_colour": {RGB Hex} or null,             // What's the colour is the discolouration.
+    "Discolouration_Outfall": true/false/null,              // Is the discolouration caused by an outfall?
+    "Aeration": true/false/null,                            // Is there visible aeration in the river reach like bubbles, turbulence, rapids, weirs?
+    "Aeration_Extent": None/Minor/Partial/Full,             // What is the extent of river flow aeration?
+    "Sensor": true/false/null                               // Does the photo contains a flow gauge, level or quality sensor? Any sort of flow or water quality measurement device.
+    "Wildlife": true/false/null,                            // The presence of wildlife.
+    "Wildlife_Fish": true/false/null,                       // The presence of species.
+    "Wildlife_Algal": true/false/null,                      // The presence of algal blooms.
+    "Wildlife_Invertebrate": true/false/null,               // The presence of invertebrate species.
+    "Wildlife_Birds": true/false/null,                      // The presence of birds.
+    "Wildlife_Other": true/false/null,                      // The presence of other forms of wildlife.
+    "Plants": true/false/null,                              // The presence of plant species.
 }
