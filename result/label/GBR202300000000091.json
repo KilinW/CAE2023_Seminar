@@ -15,10 +15,10 @@
     "Aeration_Extent": "None",
     "Sensor": false,
     "Wildlife": true,
-    "Wildlife_Fish": true,
+    "Wildlife_Fish": false,
     "Wildlife_Algal": false,
     "Wildlife_Invertebrate": false,
-    "Wildlife_Birds": false,
+    "Wildlife_Birds": true,
     "Wildlife_Other": false,
     "Plants": false
 }

@@ -62,19 +62,18 @@ def get_label(base64_image: str, api_key: str, prompt: str):
 if __name__ == "__main__":
     for image in images:
         # Trim the extension by spliting the string so it is robust to any extension
-        image = image.split('.')[0]
         img_b64 = encode_image(image_path=image_folder+image)
         # Get the reply
         response = get_label(img_b64, api_key, prompt)
         # Save the response as json in result folder
-        with open(f"./result/response/{image}.json", "w") as f:
+        with open(f"./result/response/{image.split('.')[0]}.json", "w") as f:
             f.write(response.text)
         # Get the label form from the response
         form = response.json()['choices'][0]['message']['content']
         ## Remove the heading '''json and trailing '''
         #form = form[7:-3]
         # Save the form as json in result folder
-        with open(f"./result/label/{image}.json", "w") as f:
+        with open(f"./result/label/{image.split('.')[0]}.json", "w") as f:
             f.write(form)
 
     # Read result folder
