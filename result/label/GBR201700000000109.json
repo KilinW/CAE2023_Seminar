@@ -5,7 +5,7 @@
     "Outfall_Screen": false,
     "Sewage_Litter": false,
     "Rubbish": false,
-    "Obstruction": "Minor",
+    "Obstruction": "None",
     "Modified_Channel": false,
     "Proportion_Modification": "None",
     "Discolouration": false,

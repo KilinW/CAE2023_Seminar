@@ -7,7 +7,7 @@
     "Rubbish": true,
     "Obstruction": "Minor",
     "Modified_Channel": true,
-    "Proportion_Modification": "Partial",
+    "Proportion_Modification": "Full",
     "Discolouration": false,
     "Discolouration_colour": null,
     "Discolouration_Outfall": false,
@@ -20,5 +20,5 @@
     "Wildlife_Invertebrate": false,
     "Wildlife_Birds": false,
     "Wildlife_Other": false,
-    "Plants": false
+    "Plants": true
 }

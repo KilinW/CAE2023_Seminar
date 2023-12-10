@@ -6,8 +6,8 @@
     "Sewage_Litter": false,
     "Rubbish": false,
     "Obstruction": "None",
-    "Modified_Channel": false,
-    "Proportion_Modification": "None",
+    "Modified_Channel": true,
+    "Proportion_Modification": "Minor",
     "Discolouration": false,
     "Discolouration_colour": null,
     "Discolouration_Outfall": null,
@@ -15,10 +15,10 @@
     "Aeration_Extent": "None",
     "Sensor": false,
     "Wildlife": true,
-    "Wildlife_Fish": false,
-    "Wildlife_Algal": false,
-    "Wildlife_Invertebrate": false,
+    "Wildlife_Fish": null,
+    "Wildlife_Algal": null,
+    "Wildlife_Invertebrate": null,
     "Wildlife_Birds": true,
     "Wildlife_Other": false,
-    "Plants": false
+    "Plants": null
 }

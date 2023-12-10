@@ -1,9 +1,9 @@
 {
     "Outfall": true,
-    "Outfall_Spilling": false,
+    "Outfall_Spilling": true,
     "Outfall_Aeration": false,
-    "Outfall_Screen": true,
-    "Sewage_Litter": null,
+    "Outfall_Screen": false,
+    "Sewage_Litter": false,
     "Rubbish": false,
     "Obstruction": "None",
     "Modified_Channel": true,

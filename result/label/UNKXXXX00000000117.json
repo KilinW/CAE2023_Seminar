@@ -3,10 +3,10 @@
     "Outfall_Spilling": null,
     "Outfall_Aeration": null,
     "Outfall_Screen": null,
-    "Sewage_Litter": false,
-    "Rubbish": false,
+    "Sewage_Litter": null,
+    "Rubbish": null,
     "Obstruction": "None",
-    "Modified_Channel": false,
+    "Modified_Channel": null,
     "Proportion_Modification": "None",
     "Discolouration": false,
     "Discolouration_colour": null,
@@ -16,9 +16,9 @@
     "Sensor": false,
     "Wildlife": true,
     "Wildlife_Fish": true,
-    "Wildlife_Algal": false,
-    "Wildlife_Invertebrate": false,
-    "Wildlife_Birds": false,
-    "Wildlife_Other": false,
-    "Plants": true
+    "Wildlife_Algal": null,
+    "Wildlife_Invertebrate": null,
+    "Wildlife_Birds": null,
+    "Wildlife_Other": null,
+    "Plants": null
 }

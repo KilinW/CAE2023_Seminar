@@ -14,11 +14,11 @@
     "Aeration": true,
     "Aeration_Extent": "Full",
     "Sensor": false,
-    "Wildlife": false,
+    "Wildlife": null,
     "Wildlife_Fish": null,
     "Wildlife_Algal": null,
     "Wildlife_Invertebrate": null,
     "Wildlife_Birds": null,
     "Wildlife_Other": null,
-    "Plants": true
+    "Plants": null
 }

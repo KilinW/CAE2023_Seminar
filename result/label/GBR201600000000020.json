@@ -3,7 +3,7 @@
     "Outfall_Spilling": false,
     "Outfall_Aeration": false,
     "Outfall_Screen": false,
-    "Sewage_Litter": null,
+    "Sewage_Litter": false,
     "Rubbish": true,
     "Obstruction": "Partial",
     "Modified_Channel": true,

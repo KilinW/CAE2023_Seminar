@@ -64,17 +64,29 @@ if __name__ == "__main__":
         # Trim the extension by spliting the string so it is robust to any extension
         img_b64 = encode_image(image_path=image_folder+image)
         # Get the reply
-        response = get_label(img_b64, api_key, prompt)
-        # Save the response as json in result folder
-        with open(f"./result/response/{image.split('.')[0]}.json", "w") as f:
-            f.write(response.text)
-        # Get the label form from the response
-        form = response.json()['choices'][0]['message']['content']
-        ## Remove the heading '''json and trailing '''
-        #form = form[7:-3]
-        # Save the form as json in result folder
-        with open(f"./result/label/{image.split('.')[0]}.json", "w") as f:
-            f.write(form)
+        try:
+            response = get_label(img_b64, api_key, prompt)
+        except:
+            print(f"Error in {image}")
+            print(f'Error while getting response from API')
+            continue
+
+
+        try:
+            # Save the response as json in result folder
+            with open(f"./result/response/{image.split('.')[0]}.json", "w") as f:
+                f.write(response.text)
+            # Get the label form from the response
+            form = response.json()['choices'][0]['message']['content']
+            ## Remove the heading '''json and trailing '''
+            #form = form[7:-3]
+            # Save the form as json in result folder
+            with open(f"./result/label/{image.split('.')[0]}.json", "w") as f:
+                f.write(form)
+        except:
+            print(f"Error in {image}")
+            print(response)
+            continue
 
     # Read result folder
     result = os.listdir("./result/label")
